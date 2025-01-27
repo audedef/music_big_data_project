@@ -1,0 +1,12 @@
+dbt_postgres_music_project:
+  outputs:
+  dev:
+    type: postgres
+    threads: 1
+    host: localhost
+    port: 5432
+    user: postgres
+    pass: ''
+    dbname: postgres
+    schema: public
+target: dev
